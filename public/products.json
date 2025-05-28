@@ -1,0 +1,65 @@
+[
+  {
+    "id": "prod_1",
+    "name": "Wireless Noise-Cancelling Headphones",
+    "price": 129.99,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06a261?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Immersive sound with superior comfort for all-day listening."
+  },
+  {
+    "id": "prod_2",
+    "name": "Smart Fitness Tracker",
+    "price": 49.95,
+    "image": "https://images.unsplash.com/photo-1579586337272-7ab092bb4933?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Track your steps, heart rate, and sleep with this sleek device."
+  },
+  {
+    "id": "prod_3",
+    "name": "Portable Bluetooth Speaker",
+    "price": 75.0,
+    "image": "https://images.unsplash.com/photo-1546435017-7e6157f12e5f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Compact speaker with rich audio, perfect for any adventure."
+  },
+  {
+    "id": "prod_4",
+    "name": "Ergonomic Office Chair",
+    "price": 249.99,
+    "image": "https://images.unsplash.com/photo-1518342460144-8d963f25c797?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Designed for maximum comfort and support during long work hours."
+  },
+  {
+    "id": "prod_5",
+    "name": "Stainless Steel Water Bottle",
+    "price": 19.99,
+    "image": "https://images.unsplash.com/photo-1525961623916-24e680a65386?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Keeps drinks cold for 24 hours and hot for 12 hours."
+  },
+  {
+    "id": "prod_6",
+    "name": "Organic Cotton T-Shirt",
+    "price": 25.0,
+    "image": "https://images.unsplash.com/photo-1579737151040-e2b3e2182064?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Soft and breathable, made from sustainably sourced materials."
+  },
+  {
+    "id": "prod_7",
+    "name": "Professional DSLR Camera",
+    "price": 899.0,
+    "image": "https://images.unsplash.com/photo-1517462947116-e41c40919248?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Capture stunning photos and videos with advanced features."
+  },
+  {
+    "id": "prod_8",
+    "name": "Scented Candle Set",
+    "price": 35.5,
+    "image": "https://images.unsplash.com/photo-1563854659223-1d02c525f0e1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Create a relaxing ambiance with these beautifully crafted candles."
+  },
+  {
+    "id": "prod_9",
+    "name": "Non-Stick Cookware Set",
+    "price": 179.99,
+    "image": "https://images.unsplash.com/photo-1582236371720-6f91f132e4d0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Durable and easy to clean, essential for every kitchen."
+  }
+]
