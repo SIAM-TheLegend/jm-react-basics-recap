@@ -1,4 +1,4 @@
-const Product = ({ product }) => {
+const Product = ({ product, handleCartItems }) => {
   return (
     <div
       style={{
@@ -97,6 +97,7 @@ const Product = ({ product }) => {
               cursor: "pointer",
               // No hover styles as requested
             }}
+            onClick={() => handleCartItems(product)}
           >
             Add to Cart
           </button>
