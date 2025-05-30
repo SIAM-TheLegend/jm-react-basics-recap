@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Product from "./Product";
 import Cart from "./Cart";
+import { setCartToLocalStorage } from "../utils/localstorage";
 
 function Products() {
   const [products, setProducts] = useState([]);
@@ -14,18 +15,6 @@ function Products() {
     const updatedCartItems = [...cartItems, item];
     setCartItems(updatedCartItems);
     setCartToLocalStorage(updatedCartItems);
-  };
-
-  const setCartToLocalStorage = (item) => {
-    // check if localStorage has cart from before
-    const isCart = localStorage.getItem("cart");
-
-    // Set items on cart if previously had a cart, otherwise initialize it
-    if (isCart) {
-      localStorage.setItem("cart", JSON.stringify(item));
-    } else {
-      localStorage.setItem("cart", "[]");
-    }
   };
 
   return (
