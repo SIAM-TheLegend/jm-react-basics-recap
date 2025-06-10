@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Product from "./Product";
 import Cart from "./Cart";
-import { fetchCartFromLocalStorage, setCartToLocalStorage } from "../utils/localstorage";
+// import { fetchCartFromLocalStorage, setCartToLocalStorage } from "../utils/localstorage";
 
 function Products() {
   const [products, setProducts] = useState([]);
@@ -12,15 +12,15 @@ function Products() {
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
-  useEffect(() => {
-    const storedCart = fetchCartFromLocalStorage(setCartItems);
-    console.log(storedCart);
-  }, []);
+  // useEffect(() => {
+  //   // const storedCart = fetchCartFromLocalStorage(setCartItems);
+  //   console.log(storedCart);
+  // }, []);
 
   const handleCartItems = (item) => {
     const updatedCartItems = [...cartItems, item];
     setCartItems(updatedCartItems);
-    setCartToLocalStorage(updatedCartItems);
+    // setCartToLocalStorage(updatedCartItems);
   };
 
   return (
